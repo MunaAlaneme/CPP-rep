@@ -5,15 +5,18 @@
 //  Created by Muna Alaneme on 5/30/25.
 //
 //  https://github.com/PortAudio/portaudio
+//  https://github.com/libsndfile/libsndfile
+//  https://github.com/ocornut/imgui
+//  https://github.com/libsdl-org/SDL
 
 #include "portaudio.h"
-#include <sndfile.h>
+#include "sndfile.h"
 #include <vector>
 #include <iostream>
 #include "imgui.h"
 #include "imgui_impl_sdl2.h"
 #include "imgui_impl_sdlrenderer.h"
-#include <SDL.h>
+#include "SDL.h"
 
 std::vector<float> audioData;
 size_t audioIndex = 0;
